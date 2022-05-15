@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block title %}Mentors |Traininng Sections{% endblock %}
+
+{% block body %}
+
+<div class="row">
+	<div class="col-lg-12">
+		<ol class="breadcrumb">
+			<!-- <li>
+				<a href="./">Home</a>
+			</li> -->
+			<li >
+				<a href="/cert">Certificate</a>
+			</li>
+			<li class="active">
+				Mentor
+			</li>
+		<!-- 	<li>
+				<a href="./">Home</a>
+			</li> -->
+			<li ><a href="/"> Profile</a>
+			</li>
+		</ol>
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-8">
+		<h3 class="bold">
+			<i class="glyphicon glyphicon-user"></i> Mentors 
+		</h3>
+
+		<div class="panel panel-primary">
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="thumbnail thumbnail-q">
+								<img src="{{ url_for('static', filename='imgs/k.jpg') }}" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<h4 class="bold">Michael Nana Kwame Akuetteh</h4>
+						<p>Michael was not giving his best during the early stage.He was not coping with the Environmnet , He Later joined with a spirit I have never seen.He is a good student and i like how hardworking he is.Keep up </p>
+						<br />
+
+						<p>
+							<!-- <button type="button" class="btn btn-danger btn-xs"> -->
+								<!-- <i class="glyphicon glyphicon-trash"></i> -->
+							<!-- </button> -->
+							<a href="./Mentor.hmtl" class="btn btn-primary btn-sm">Mail <i class="glyphicon glyphicon-inbox"></i>
+				</a>
+							<a href="./Mentor.hmtl" class="btn btn-primary btn-sm">
+					Contact <i class="glyphicon glyphicon-phone"></i>
+							</a>
+						</p>
+					</div>
+					
+					
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="thumbnail thumbnail-q">
+								<img src="{{ url_for('static', filename='imgs/n.jpg') }}" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<h4 class="bold">Michael Nana Kwame Akuetteh</h4>
+						<p>Michael was not giving his best during the early stage.He was not coping with the Environmnet , He Later joined with a spirit I have never seen.He is a good student and i like how hardworking he is.Keep up </p>
+						<br />
+						
+						<p>
+							<a href="./Mentor.hmtl" class="btn btn-primary btn-sm">Mail <i class="glyphicon glyphicon-envelope"></i>
+				</a>
+							<a href="./Mentor.hmtl" class="btn btn-primary btn-sm">
+					Contact <i class="glyphicon glyphicon-phone"></i>
+							</a>
+						</p>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-4">
+		<h3 class="bold">
+			<i class="glyphicon glyphicon-th-list"></i> Mentor Summary
+		</h3>
+
+		<div class="panel panel-primary">
+			<div class="panel-body">
+				Mentor
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item">
+					<p>
+						lorem <strong class="pull-right">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong>
+					</p>
+					<p>
+						lorem <strong class="pull-right">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong>
+					</p>
+				</li>
+				<li class="list-group-item">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+					<p>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</li>
+			</ul>
+			<div class="panel-footer">
+				<a href="./Mentor.hmtl" class="btn btn-primary btn-sm">
+					Nonoe <i class="glyphicon glyphicon-headphones"></i>
+				</a>
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

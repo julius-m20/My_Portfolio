@@ -1,0 +1,59 @@
+
+{% extends "base.html"%}
+{% block title %}Login Admin{% endblock %}
+
+{% block body %}
+<div style="
+    background: url('../static/imgs/admin.jpg') no-repeat center center/cover ;
+    /*background-color: red;*/
+    position: absolute;
+    top:-20px ;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    "></div> 
+<div style="height: 254px ;
+  width: 355px;
+  /*border-radius: 5%;*/
+  margin-left: 40%;
+background-color: white;
+box-shadow:0 4px 5px rgba(0,0,0,0.2);
+border-radius:20px;
+
+     " >
+
+     <div class="panel panel-primary" >
+         <form  >
+         <div class="panel-body">
+            <div class="row">
+               <div class="col-lg-12">
+                  <h4 class="bold">Admin Login</h4>
+               </div>
+           
+               <div class="col-lg-6">
+                  <div class="form-group">
+                     <label>Name</label>
+
+<!--                    <input type="text" name="Name">-->
+                      {{form.Name}}
+
+
+                  </div>
+                  <div class="form-group">
+
+                     <label>Password</label>
+
+                    <input type="password" name="Password">
+                    
+                  </div class="form-group">
+
+                  <button class="btn btn-primary">SignIN</button>
+               </div>
+               
+            </div>
+     <form>
+
+
+</div>
+{% endblock %}
